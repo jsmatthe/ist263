@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 04 Notes - Forms</title>
+    </head>
+    <body>
+        <h1>Apply for College</h1>
+        <form action="mailto: jsmatthe@syr.edu" method="POST">
+            <!-- action mailto is going to send an email of our form data -->
+            <!-- POST method is required with mailto action-->
+            <!-- post sends form data with website headers-->
+
+            <label for="firstname"> Type Your first name</label>
+            <input type="text" name="firstname" id="firstname"> <br>
+            <!-- the for attribute in lable corresponds to the id attribute in input-->
+            <!-- The values must be the same to associate the label with form field-->
+            <label for="comments">Comments?</label>
+            <textarea name="comments" id="comments" rows="10" cols="100">Type your comments here:
+            </textarea> <br>
+            <!-- the only place white spaces matters is in default text or text area-->
+
+            <p>Please Choose Your Year in School</p>
+
+            <input type="radio" name="schoolyear" id="schoolyearfr" value="Freshman"><label for="schoolyearfr">Freshman</label>
+            <input type="radio" name="schoolyear" id="schoolyearso" value="Sophmore"><label for="schoolyearso">sophmore</label>
+            <input type="radio" name="schoolyear" id="schoolyearju" value="Junior"><label for="schoolyearju">Junior</label>
+            <input type="radio" name="schoolyear" id="schoolyearse" value="Senior"><label for="schoolyearse">Senior</label><br>
+
+            <input type="checkbox" name="verteran" id="verteran" value="YES">
+            <lable for="verteran">Verteran?</lable><br>
+
+            <label for="nugs">Choose your dank nug:</label>
+            <select name="nugs" id="nugs">
+                <option value="skywalker og"> Skywalker og</option>
+                <option value="bluedream">bluedream</option>
+            </select><br>
+                
+        
+
+
+            <input type="submit" value="send application">
+
+            
+            
+            
+
+        </form>
+
+        
+    </body>
+</html>
