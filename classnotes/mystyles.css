@@ -1,0 +1,35 @@
+h1 {
+    color: #ff0000;
+    /* hex color requires the pound sign */
+    /* there six digits, starting with red the green then blue */
+}
+
+/* these three selector are pseudo selectors */
+/* colon seperetaes the selector from its state */
+
+a:link {
+    color:#00ff00;
+}
+
+a:visited {
+    color:#0000ff;
+}
+
+a:hover {
+    color:#7600ff;
+    background-color: coral;
+}
+
+.lookdiferent:hover {color:#999999;}
+/* above uses a class selector with the pseudo state*/
+
+body {
+    background-color: gold;
+    padding: 20px;
+    /* space between content and edge of box*/
+    margin: 50px;
+    /* space between the outside of the box and the rest of the content */
+    border: 5px solid #0000ff;
+    /* this is combo valu ^^ */
+    /* width of your box is content width plus border width x2 plus margin width x2 plas padding width x2 */
+}
