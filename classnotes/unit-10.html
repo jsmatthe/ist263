@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Accesablity</title>
+        <style>
+            #skipbutton {
+                position: absolute;
+                /* position based on top left of viewport*/
+                left: -999px;
+                /* 999 means off screen*/
+            }
+            /*when the iteam is tab to */
+            #skipbutton:focus {
+                position: absolute;
+                left: 10px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Unit 10 Notes</h1>
+        <!--heading should only be 1 h1-->
+
+        <img src="C:\Users\julia\OneDrive\Pictures\Flint hall wrt 145.jpg">
+        <!--Dont say image of or picture of -->
+
+        <a id="skipbutton"></a><a href="maincontent">Skip to Content</a>
+        <!-- anchor link - links lower on page -->
+
+        <a href="http:\\www.google.com" tabindex="2">Google</a>
+        <a href="http:\\www.amazon.com" tabindex="3">Amazon</a>
+        <a href="http:\\www.ebay.com" tabindex="1">ebay</a>
+        <!--changes the order of iteam selected when you press the tab-->
+
+        <a id="maincontent"></a>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae atque, dolor, aperiam ducimus pariatur possimus architecto, provident dolorum nobis commodi expedita nulla quaerat blanditiis asperiores tenetur dolorem. Aliquid, culpa adipisci.</p>
+
+
+    </body>
+</html>
