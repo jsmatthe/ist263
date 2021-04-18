@@ -1,0 +1,16 @@
+head {
+    color: royalblue;
+}
+
+a:link {color: lawngreen;}
+
+
+body {
+    background-color: dimgrey;
+}
+
+nav {background-color: lawngreen;}
+nav a {color: royalblue;}
+nav a:hover {color: royalblue;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}

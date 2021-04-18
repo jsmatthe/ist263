@@ -7,7 +7,7 @@ h1 {
 /* these three selector are pseudo selectors */
 /* colon seperetaes the selector from its state */
 
-a:link {
+link {
     color:#00ff00;
 }
 
